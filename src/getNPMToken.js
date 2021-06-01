@@ -23,6 +23,7 @@ async function getNPMToken() {
 
     return token;
   } catch (e) {
+    console.error(e);
     throw e;
   }
 }
