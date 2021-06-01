@@ -1,10 +1,10 @@
 {
   "name": "npm-shell-login",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Log in your npm account on any shell",
   "main": "./index.js",
   "engine": {
-    "node": "^8.11.3"
+    "node": ">= 12"
   },
   "bin": {
     "npm-shell-login": "./npm-login.js"
@@ -17,6 +17,10 @@
   "author": {
     "name": "Francois Roland",
     "email": "francois.roland@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/f-roland/npm-shell-login.git"
   },
   "license": "ISC",
   "devDependencies": {
